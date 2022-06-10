@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle helm-for-atom",
+        "command": "helm-for-atom:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "helm-for-atom",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "helm-for-atom:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
